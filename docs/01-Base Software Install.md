@@ -8,7 +8,7 @@ This guide is meant to provide a minimum baseline to be used when running the en
 1. A blank Ubuntu installation (Im running on WSL).
 2. Internet Access
 
-## Step-by-step Installation
+## Step-by-step Instructions
 The following tools will be installed:
 * General Development Frameworks:  NodeJS (npm & yarn), Python 3 (pip)
 * Solidity Development Frameworks: HardHat, solc-select, solc
