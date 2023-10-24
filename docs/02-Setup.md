@@ -20,7 +20,7 @@ This environment leverages a BIP44 wallet and ensures the first ten accounts are
    Ensure you have the necessary plugins and dependencies installed.
     ```bash
     yarn install
-    yarn add @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers ethers
+    yarn add @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers ethers  
     ```
 
 3. **Configuration**:
