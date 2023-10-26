@@ -4300,8 +4300,8 @@
       }
     },
     "scripts/foundry/Ethernaut/Level 1 - Fallback.sol": {
-      "lastModificationDate": 1698336000655,
-      "contentHash": "f0635f1e4c46d2bea926dd756c1601ba",
+      "lastModificationDate": 1698340050435,
+      "contentHash": "16bc4bec41f5dce6cf4c28b94cff6221",
       "sourceName": "scripts/foundry/Ethernaut/Level 1 - Fallback.sol",
       "solcConfig": {
         "settings": {
@@ -4359,8 +4359,8 @@
       ],
       "versionRequirement": "^0.8",
       "artifacts": {
-        "EthNautL1FallbackSolution": {
-          "0.8.22+commit.4fc1097e.Linux.gcc": "Level 1 - Fallback.sol/EthNautL1FallbackSolution.json"
+        "EthNautL1Solution": {
+          "0.8.22+commit.4fc1097e.Linux.gcc": "Level 1 - Fallback.sol/EthNautL1Solution.json"
         }
       }
     }
