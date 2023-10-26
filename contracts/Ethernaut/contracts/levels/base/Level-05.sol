@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 
-pragma solidity ^0.5.0;
+pragma solidity ^0.5;
 
-import '../../helpers/Ownable-05.sol';
+import '../Ownable-05.sol';
 
 contract Level is Ownable {
   function createInstance(address _player) public payable returns (address);

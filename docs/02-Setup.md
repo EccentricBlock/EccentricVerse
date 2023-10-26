@@ -47,3 +47,44 @@ This environment leverages a BIP44 wallet and ensures the first ten accounts are
 
     > **Note**: It's vital for security reasons not to commit the `secrets.json` file. Always add it to `.gitignore`. (already done in this repo)
 
+4. **Foundary Integration**:
+
+Install Foundry:
+
+```bash
+curl -L https://foundry.paradigm.xyz | bash
+source /home/user/.bashrc
+foundryup
+```
+
+4. **Foundary Integration**:
+
+Install Foundry:
+
+```bash
+mkdir /tmp/foundry
+cd /tmp/foundry/
+forge init
+
+cd EccentricVerse_Project_Folder/
+cp -R /tmp/foundry/lib lib
+```
+
+root folder `foundry.toml`:
+
+```js
+[profile.default]
+src = 'contracts'
+out = 'out'
+libs = ['node_modules', 'lib']
+test = 'test/foundry'
+script = 'scripts/foundry'
+cache_path = 'forge-cache'
+```
+
+add remappings `remappings.txt` 
+
+```js
+ds-test/=lib/forge-std/lib/ds-test/src/
+forge-std/=lib/forge-std/src/
+```

@@ -1,2 +1,2 @@
 # EccentricVerse
-Small, Simulated Blockchain With DEXs &amp; Trading
+Hardhat & Foundry integrated project full of contracts to simulate and learn various things.

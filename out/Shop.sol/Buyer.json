@@ -1,0 +1,706 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "price",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "price()": "a035b1fe"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.22+commit.4fc1097e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"price\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/Ethernaut/contracts/levels/Level 21 - Shop/Shop.sol\":\"Buyer\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@ethereum-waffle/=node_modules/@ethereum-waffle/\",\":@openzeppelin/=node_modules/@openzeppelin/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":eth-gas-reporter/=node_modules/eth-gas-reporter/\",\":forge-std/=lib/forge-std/src/\",\":hardhat/=node_modules/hardhat/\",\":openzeppelin-contracts-06/=node_modules/openzeppelin-contracts-06/\",\":openzeppelin-contracts-08/=node_modules/openzeppelin-contracts-08/\"]},\"sources\":{\"contracts/Ethernaut/contracts/levels/Level 21 - Shop/Shop.sol\":{\"keccak256\":\"0xd8a748fdf0f7fdffa8887f56e815beb3e6fb4be1c8781afc7b180ef47799eb26\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://8b0266051735eb9bf14683c45ab7a1f8851c58b8ecdf1c8c0746c26c83e042dd\",\"dweb:/ipfs/QmZFEBAd9MB5YtWqFfW1HWLmyx11CkXgTbgLGUCTwJXY5x\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.22+commit.4fc1097e"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "price",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        "@ethereum-waffle/=node_modules/@ethereum-waffle/",
+        "@openzeppelin/=node_modules/@openzeppelin/",
+        "ds-test/=lib/forge-std/lib/ds-test/src/",
+        "eth-gas-reporter/=node_modules/eth-gas-reporter/",
+        "forge-std/=lib/forge-std/src/",
+        "hardhat/=node_modules/hardhat/",
+        "openzeppelin-contracts-06/=node_modules/openzeppelin-contracts-06/",
+        "openzeppelin-contracts-08/=node_modules/openzeppelin-contracts-08/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "contracts/Ethernaut/contracts/levels/Level 21 - Shop/Shop.sol": "Buyer"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "contracts/Ethernaut/contracts/levels/Level 21 - Shop/Shop.sol": {
+        "keccak256": "0xd8a748fdf0f7fdffa8887f56e815beb3e6fb4be1c8781afc7b180ef47799eb26",
+        "urls": [
+          "bzz-raw://8b0266051735eb9bf14683c45ab7a1f8851c58b8ecdf1c8c0746c26c83e042dd",
+          "dweb:/ipfs/QmZFEBAd9MB5YtWqFfW1HWLmyx11CkXgTbgLGUCTwJXY5x"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "contracts/Ethernaut/contracts/levels/Level 21 - Shop/Shop.sol",
+    "id": 2370,
+    "exportedSymbols": {
+      "Buyer": [
+        2331
+      ],
+      "Shop": [
+        2369
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "33:354:27",
+    "nodes": [
+      {
+        "id": 2325,
+        "nodeType": "PragmaDirective",
+        "src": "33:23:27",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ]
+      },
+      {
+        "id": 2331,
+        "nodeType": "ContractDefinition",
+        "src": "60:70:27",
+        "nodes": [
+          {
+            "id": 2330,
+            "nodeType": "FunctionDefinition",
+            "src": "81:46:27",
+            "nodes": [],
+            "functionSelector": "a035b1fe",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "price",
+            "nameLocation": "90:5:27",
+            "parameters": {
+              "id": 2326,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "95:2:27"
+            },
+            "returnParameters": {
+              "id": 2329,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2328,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2330,
+                  "src": "121:4:27",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 2327,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "121:4:27",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "120:6:27"
+            },
+            "scope": 2331,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Buyer",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          2331
+        ],
+        "name": "Buyer",
+        "nameLocation": "70:5:27",
+        "scope": 2370,
+        "usedErrors": [],
+        "usedEvents": []
+      },
+      {
+        "id": 2369,
+        "nodeType": "ContractDefinition",
+        "src": "134:251:27",
+        "nodes": [
+          {
+            "id": 2334,
+            "nodeType": "VariableDeclaration",
+            "src": "153:23:27",
+            "nodes": [],
+            "constant": false,
+            "functionSelector": "a035b1fe",
+            "mutability": "mutable",
+            "name": "price",
+            "nameLocation": "165:5:27",
+            "scope": 2369,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 2332,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "153:4:27",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "hexValue": "313030",
+              "id": 2333,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "173:3:27",
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_100_by_1",
+                "typeString": "int_const 100"
+              },
+              "value": "100"
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 2336,
+            "nodeType": "VariableDeclaration",
+            "src": "181:18:27",
+            "nodes": [],
+            "constant": false,
+            "functionSelector": "e852e741",
+            "mutability": "mutable",
+            "name": "isSold",
+            "nameLocation": "193:6:27",
+            "scope": 2369,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bool",
+              "typeString": "bool"
+            },
+            "typeName": {
+              "id": 2335,
+              "name": "bool",
+              "nodeType": "ElementaryTypeName",
+              "src": "181:4:27",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bool",
+                "typeString": "bool"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 2368,
+            "nodeType": "FunctionDefinition",
+            "src": "206:176:27",
+            "nodes": [],
+            "body": {
+              "id": 2367,
+              "nodeType": "Block",
+              "src": "228:154:27",
+              "nodes": [],
+              "statements": [
+                {
+                  "assignments": [
+                    2341
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 2341,
+                      "mutability": "mutable",
+                      "name": "_buyer",
+                      "nameLocation": "241:6:27",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 2367,
+                      "src": "235:12:27",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_Buyer_$2331",
+                        "typeString": "contract Buyer"
+                      },
+                      "typeName": {
+                        "id": 2340,
+                        "nodeType": "UserDefinedTypeName",
+                        "pathNode": {
+                          "id": 2339,
+                          "name": "Buyer",
+                          "nameLocations": [
+                            "235:5:27"
+                          ],
+                          "nodeType": "IdentifierPath",
+                          "referencedDeclaration": 2331,
+                          "src": "235:5:27"
+                        },
+                        "referencedDeclaration": 2331,
+                        "src": "235:5:27",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Buyer_$2331",
+                          "typeString": "contract Buyer"
+                        }
+                      },
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 2346,
+                  "initialValue": {
+                    "arguments": [
+                      {
+                        "expression": {
+                          "id": 2343,
+                          "name": "msg",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": -15,
+                          "src": "256:3:27",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_magic_message",
+                            "typeString": "msg"
+                          }
+                        },
+                        "id": 2344,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberLocation": "260:6:27",
+                        "memberName": "sender",
+                        "nodeType": "MemberAccess",
+                        "src": "256:10:27",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      ],
+                      "id": 2342,
+                      "name": "Buyer",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 2331,
+                      "src": "250:5:27",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_type$_t_contract$_Buyer_$2331_$",
+                        "typeString": "type(contract Buyer)"
+                      }
+                    },
+                    "id": 2345,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "typeConversion",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "250:17:27",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_Buyer_$2331",
+                      "typeString": "contract Buyer"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "235:32:27"
+                },
+                {
+                  "condition": {
+                    "commonType": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    },
+                    "id": 2354,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "commonType": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      },
+                      "id": 2351,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "leftExpression": {
+                        "arguments": [],
+                        "expression": {
+                          "argumentTypes": [],
+                          "expression": {
+                            "id": 2347,
+                            "name": "_buyer",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 2341,
+                            "src": "280:6:27",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_contract$_Buyer_$2331",
+                              "typeString": "contract Buyer"
+                            }
+                          },
+                          "id": 2348,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberLocation": "287:5:27",
+                          "memberName": "price",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": 2330,
+                          "src": "280:12:27",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
+                            "typeString": "function () view external returns (uint256)"
+                          }
+                        },
+                        "id": 2349,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "functionCall",
+                        "lValueRequested": false,
+                        "nameLocations": [],
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "280:14:27",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "nodeType": "BinaryOperation",
+                      "operator": ">=",
+                      "rightExpression": {
+                        "id": 2350,
+                        "name": "price",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 2334,
+                        "src": "298:5:27",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "src": "280:23:27",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "&&",
+                    "rightExpression": {
+                      "id": 2353,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "UnaryOperation",
+                      "operator": "!",
+                      "prefix": true,
+                      "src": "307:7:27",
+                      "subExpression": {
+                        "id": 2352,
+                        "name": "isSold",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 2336,
+                        "src": "308:6:27",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "src": "280:34:27",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 2366,
+                  "nodeType": "IfStatement",
+                  "src": "276:101:27",
+                  "trueBody": {
+                    "id": 2365,
+                    "nodeType": "Block",
+                    "src": "316:61:27",
+                    "statements": [
+                      {
+                        "expression": {
+                          "id": 2357,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftHandSide": {
+                            "id": 2355,
+                            "name": "isSold",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 2336,
+                            "src": "325:6:27",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_bool",
+                              "typeString": "bool"
+                            }
+                          },
+                          "nodeType": "Assignment",
+                          "operator": "=",
+                          "rightHandSide": {
+                            "hexValue": "74727565",
+                            "id": 2356,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "bool",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "334:4:27",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_bool",
+                              "typeString": "bool"
+                            },
+                            "value": "true"
+                          },
+                          "src": "325:13:27",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_bool",
+                            "typeString": "bool"
+                          }
+                        },
+                        "id": 2358,
+                        "nodeType": "ExpressionStatement",
+                        "src": "325:13:27"
+                      },
+                      {
+                        "expression": {
+                          "id": 2363,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftHandSide": {
+                            "id": 2359,
+                            "name": "price",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 2334,
+                            "src": "347:5:27",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          "nodeType": "Assignment",
+                          "operator": "=",
+                          "rightHandSide": {
+                            "arguments": [],
+                            "expression": {
+                              "argumentTypes": [],
+                              "expression": {
+                                "id": 2360,
+                                "name": "_buyer",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 2341,
+                                "src": "355:6:27",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_contract$_Buyer_$2331",
+                                  "typeString": "contract Buyer"
+                                }
+                              },
+                              "id": 2361,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "memberLocation": "362:5:27",
+                              "memberName": "price",
+                              "nodeType": "MemberAccess",
+                              "referencedDeclaration": 2330,
+                              "src": "355:12:27",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
+                                "typeString": "function () view external returns (uint256)"
+                              }
+                            },
+                            "id": 2362,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "kind": "functionCall",
+                            "lValueRequested": false,
+                            "nameLocations": [],
+                            "names": [],
+                            "nodeType": "FunctionCall",
+                            "src": "355:14:27",
+                            "tryCall": false,
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          "src": "347:22:27",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "id": 2364,
+                        "nodeType": "ExpressionStatement",
+                        "src": "347:22:27"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "functionSelector": "a6f2ae3a",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "buy",
+            "nameLocation": "215:3:27",
+            "parameters": {
+              "id": 2337,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "218:2:27"
+            },
+            "returnParameters": {
+              "id": 2338,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "228:0:27"
+            },
+            "scope": 2369,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Shop",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          2369
+        ],
+        "name": "Shop",
+        "nameLocation": "143:4:27",
+        "scope": 2370,
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 27
+}
