@@ -11,3 +11,7 @@ typechain-types
 cache
 artifacts
 build
+
+# Foundry Files
+forge-cache
+

