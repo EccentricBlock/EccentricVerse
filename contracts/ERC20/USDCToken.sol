@@ -10,7 +10,7 @@ contract CreditsToken is ERC20, Ownable {
         _mint(msg.sender, 10000000 * (10 ** uint256(decimals()))); // Minting 10 million tokens
     }
 
-     function mint(address to, uint256 amount) public onlyOwner {
+    function mint(address to, uint256 amount) public onlyOwner {
         _mint(to, amount);
-    }   
+    }
 }
